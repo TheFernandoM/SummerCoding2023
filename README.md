@@ -1,5 +1,6 @@
 # Summer Coding 2023
 This is the public repository for Summer Coding 2023.
+
 At the moment, we are learning _Programming Fundamentals_ using Python as our programming language.
 
 ## Topics:
