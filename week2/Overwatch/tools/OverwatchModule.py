@@ -70,7 +70,7 @@ class OverwatchData:
             hero_role = hero_data_json['role']
             heroes[hero_name] = { 'name': hero_name, 'name_short': hero_name_short, 'abilities' : hero_abilities, 'description' : hero_description, 'hitpoints' : hero_hitpoints, 'location' : hero_location,
                                 'role' : hero_role, 'story' : hero_story }
-            time.sleep(0.01) # wait 0.01 second, to not spam the website too much
+            #time.sleep(0.01) # wait 0.01 second, to not spam the website too much
         print("Loaded", len(heroes), "heroes.")
         return heroes # after everything is done, return the heroes data
     
